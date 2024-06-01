@@ -10,11 +10,8 @@ stateDiagram-v2
      TODO --> DONE: issue closed in previous iteration
      TODO --> UNPLANNED: revision required
      DONE --> IN_PROGRESS: requirements not fully satisfied
+     DONE --> CLOSED: a month has passed without any updates to the issue
 
-     UNPLANNED --> UNPLANNED: updated issue
-     TODO --> TODO: updated issue
-     IN_PROGRESS --> IN_PROGRESS: updated issue
-     REVIEW --> REVIEW: updated issue
 ```
 
 [//]: # (The possible states the issue tracking system has is )
@@ -40,7 +37,7 @@ with additional information about the status,
 release version, priority, and other information.
 Once it has been decided that the issue will be worked 
 on in the next iteration, it is now in TODO as it is moved 
-to the list of issues to work on
+to the list of issues to work on.
 
 
 However, the scope of the issue may be too large and 
@@ -56,63 +53,21 @@ deemed to be more important than the current issue a
 developer is working on, the issue may get moved back 
 into TODO until it gets picked up by another developer
 
+When the developer has finished working on an issue, 
+another developer will review the work they have done. 
+If the reviewer approves what the developer has done, the 
+issue will be marked as done and moved to DONE. If not,
+the developer will revise their work and have it reviewed
+again until the issue is approved by a reviewer.
+
+Although an issue may be in DONE, it could be that 
+the reviewer missed something. If the problem that the 
+issue was intended to fix pops up again, the issue will 
+be moved back to IN_PROGRESS in order to fix the issue.
+If no changes have occurred to the issue within a month,
+then the issue is moved to CLOSED and can not be modified.
+If the problem identified by the closed issue appears 
+again, the user must create a new issue.
 
 
-[//]: # (User creates an issue)
 
-[//]: # ()
-[//]: # (That issue can be updated before moving it to an iteration)
-
-[//]: # ()
-[//]: # (That issue will be unassigned until someone grabs it. However,)
-
-[//]: # (if the issue is vague or large in scope, it can be )
-
-[//]: # (moved back and broken up into more manageable issues before)
-
-[//]: # (being assigned to the next iteration)
-
-[//]: # ()
-[//]: # (When a developer is working on an issue, the issue could )
-
-[//]: # (be sidelined by other issues which are deemed to be )
-
-[//]: # (more important, and the issue may be moved back to )
-
-[//]: # (the list of issues to work on)
-
-[//]: # ()
-[//]: # (Once a developer finishes working on an issue, it will )
-
-[//]: # (get reviewed by another developer. If the reviewer assesses )
-
-[//]: # (the work done on the issue as incomplete or in need of )
-
-[//]: # (refinement, it will be returned to the original developer )
-
-[//]: # (to let them improve their work.)
-
-[//]: # (If the reviewer approves the work done on the issue, the )
-
-[//]: # (issue will be marked as done)
-
-[//]: # ()
-[//]: # (However, the issue may be marked as complete but still has)
-
-[//]: # (not fixed the issue it addresses. In this case, the )
-
-[//]: # (issue will be returned to the list of issues to work on)
-
-[//]: # ()
-[//]: # ()
-[//]: # (At any point of time when planning out issues, having them )
-
-[//]: # (remained unassigned, working on them, and reviewing them, )
-
-[//]: # (an issue can always be updated to modify its release date,)
-
-[//]: # (severity, )
-
-[//]: # ()
-[//]: # ()
-[//]: # ()

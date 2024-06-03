@@ -75,11 +75,15 @@ issue.
 
 **status**: same as issue status.
 
-## Questions
-Do all report IDs and issue IDs match?
+[//]: # (## Questions)
 
-If the user can delete states, what happens if an 
-issue is currently labelled with that state?
+[//]: # (Do all report IDs and issue IDs match?)
 
+[//]: # ()
+[//]: # (If the user can delete states, what happens if an )
 
+[//]: # (issue is currently labelled with that state?)
 
+[//]: # ()
+[//]: # ()
+[//]: # ()

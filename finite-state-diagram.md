@@ -60,3 +60,7 @@ TODO. If the issue describes an old issue which
 appeared on a previous version of the system but has 
 been fixed on the subsequent newer versions, the 
 issue will be moved to DONE.
+
+Lastly, for states in UNPLANNED, TODO, IN_PROGRESS, 
+and REVIEW, the user can update the issue without moving the
+issue into a new state. 

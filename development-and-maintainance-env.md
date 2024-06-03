@@ -14,4 +14,4 @@ All updates to the system can be applied while the system
 is running.
 
 If a new release requires the customer's information to 
-be migrated, it will be done.
+be migrated, it will be done. 

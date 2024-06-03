@@ -44,34 +44,31 @@ can access.
 # Actual content
 
 ## Prototype features
-In the prototype, the user will be able to create, edit, and
-delete issues. Additionally, the user will be able to 
-list issues and filter them by a variety of options, 
-including the product associated with the issue,
-the status of the issue, and the user who reported the 
-issue.
-
-Asides from issues, a user will be able to create new
-products and release versions for a product.
+In a prototype, the following will be unavailable:
+- authentication of users
+- assigning developers to issues
+- obtaining information on the average time an issue stays open for a specific product
+- integration with other tools, such as Jira or GitHub
 
 ## Future features
-
 
 For the future versions of the system, an issue will have 
 a field for assignees, noting who is currently working on 
 the issue. 
 
 Furthermore, a user will be able to request more information
-about how long issues relating to a certain product stay 
-open. Users will be able to generate a list of the 
-average time an issue stays open for all products. We 
-believe this feature will enable software developers and 
-managers to have more information to use when giving 
-estimates, aiding them in making accurate predictions.
+about the average time an issue takes, the average number of 
+modifications to the due date of an issue, and the average 
+number of days an issue gets extended by. This information 
+will be available in each product, allowing the 
+user to generate a list of these statistics for 
+each product. Moreover, this information will get updated 
+with each following issue that gets opened and closed.
+We believe this feature will enable software 
+developers and managers to have more information to use 
+when giving estimates, aiding them in making accurate 
+predictions.
 
-
-In regard to the authentication of users, future versions 
-of the system will validate the employee or guest credentials
-before granting access to a user. The validation of the user
-will also grant certain permissions based on whether the 
-user is logging in as an employee or as a guest.
+Future releases will also allow multiple users to use the 
+issue tracking system concurrently, create multiple 
+projects, and to use the system with a graphical interface.

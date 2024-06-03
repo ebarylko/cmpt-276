@@ -9,7 +9,7 @@ mentioned plus the Linux operating system.
 ## Maintenance environment
 
 The source code will be delivered to the client and will 
-be maintained by (name our group) for a period of one year.
+be maintained by AntyBug for a period of one year.
 All updates to the system can be applied while the system 
 is running.
 

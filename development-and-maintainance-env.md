@@ -2,9 +2,8 @@
 
 The only requirement for our software is that 
 it must be able to run at least Java 8. The software 
-will be developed using Windows and MacOS, but will 
-be runnable on the two operating systems previously 
-mentioned plus the Linux operating system.
+will be developed using Windows and MacOS and 
+will run on both aforementioned operating systems.
 
 ## Maintenance environment
 

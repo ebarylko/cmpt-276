@@ -3,7 +3,7 @@ stateDiagram-v2
     [*] --> CREATED: create issue
     CREATED --> ASSESSED: assess issue
     ASSESSED --> TODO: planned for next iteration
-     TODO --> IN_PROGRESS: issue is assigned
+     TODO --> IN_PROGRESS: issue is worked on
      IN_PROGRESS --> REVIEW: work finished
      REVIEW --> DONE: successful review
      
@@ -13,7 +13,7 @@ stateDiagram-v2
     REVIEW --> CANCELLED
     TODO --> ASSESSED: further revision required
 
-    ASSESSED --> DONE: changeRequest addressed in previous issue
+    ASSESSED --> DONE: issue completed in previous release
 ```
 
 
@@ -37,7 +37,7 @@ and be divided into different issues of the same complexity.
 These smaller issues will then be moved back into 
 TODO.
 
-When a developer is assigned an issue to work on, then
+When a developer begins to work on an issue,
 the issue moves into IN_PROGRESS. If there are a deluge of
 issues deemed to be more important than the current issue a 
 developer is working on, the issue may get moved back 

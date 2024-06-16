@@ -67,7 +67,7 @@ Press n to view the next twenty records, and q to return to the main menu
 
 Product A
 Enter Y below to see view the issues pertaining to this product which 
-are not cancelled nor completed and N to return to the main menu
+are not cancelled nor completed and q to return to the main menu
 [user response]
 ```
 
@@ -240,9 +240,39 @@ valid product name
   2) Filter by release
   3) Filter by status
   4) Filter by date created
-  4
-  
   s
   
  [user then sees all the products made in the last day] 
+  ```
+## Alternate: user inputs an invalid date
+
+```Welcome!
+  To get started select one of the numbers associated with the options below
+  1) Create issue
+  2) Modify issue
+  3) View issues
+  4) Add release
+  5) Add reporter
+  6) Add product
+  7) View products
+  3
+  
+  Enter the number corresponding to the option of how you would like to filter out the issues
+  When you have finished configuring your filter, enter 's' in order to have the issues displayed
+  1) Filter by product
+  2) Filter by release
+  3) Filter by status
+  4) Filter by date created
+  4
+  
+  Enter how far back (in days) you would like to search for newly created issues
+  Ex: enter 0 to search for issues created today, 1 to search for issues created today and yesterday, .... 
+  -1
+  
+  You cannot look into the future. Please enter a nonnegative 
+  integer 
+  
+  Enter how far back (in days) you would like to search for newly created issues
+  Ex: enter 0 to search for issues created today, 1 to search for issues created today and yesterday, .... 
+  [user input]
   ```

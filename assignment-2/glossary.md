@@ -5,7 +5,7 @@ be between 01 and 12, and DD must be between 01 and 31.
 AffRel: Shorthand for affected release.
 
 affectedRelease: The release version of a product which a request was made 
-about. It can be from one to eight characters long.
+about. It can be one to eight characters long.
 
 AntRel: Shorthand for anticipated release.
 
@@ -45,7 +45,8 @@ integer.
 name: the name associated with a reporter, which can be 30 characters 
 long at most.
 
-phone: A phone number
+phone: A phone number of the form xxxxxxxxxx, where each x is a digit and 
+an optional 1 can be placed in front of the phone number.
 
 priority: An integer from 1-5 detailing the importance of the issue, 
 with 1 being the lowest priority and 5 being the highest priority.
@@ -59,6 +60,8 @@ having the form YYYY-MM-DD.
 
 releaseID: The unique identifier associated to a release, being one to 
 eight characters long.
+
+reporter: a person who has previously created an issue or reported a bug. 
 
 status: The possible states an issue can take on, being one of CREATED, ASSESSED,
 IN_PROGRESS, DONE, or CANCELLED.

@@ -242,7 +242,7 @@ valid product name
   4) Filter by date created
   s
   
- [user then sees all the products made in the last day] 
+ [user then sees all the issues made in the last day] 
   ```
 ## Alternate: user inputs an invalid date
 

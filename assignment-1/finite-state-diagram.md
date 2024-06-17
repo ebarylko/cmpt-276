@@ -2,16 +2,11 @@
 stateDiagram-v2
     [*] --> CREATED: create issue
     CREATED --> ASSESSED: assess issue
-    ASSESSED --> TODO: planned for next iteration
-     TODO --> IN_PROGRESS: issue is worked on
-     IN_PROGRESS --> REVIEW: work finished
-     REVIEW --> DONE: successful review
+    ASSESSED --> IN_PROGRESS: issue gets worked on
+     IN_PROGRESS --> DONE: work finished
      
-     ASSESSED --> CANCELLED
-    TODO --> CANCELLED
-    IN_PROGRESS --> CANCELLED
-    REVIEW --> CANCELLED
-    TODO --> ASSESSED: further revision required
+     ASSESSED --> CANCELLED: issue not needed
+    IN_PROGRESS --> CANCELLED: issue not needed
 
     ASSESSED --> DONE: issue completed in previous release
 ```

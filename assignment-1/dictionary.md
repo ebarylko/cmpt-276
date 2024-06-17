@@ -63,7 +63,7 @@ a format of yyyy-mm-dd.
 **affectedRelease**: the release version of product in 
 which the feature/bug was detected
 
-**expectedRelease**: the release versionw hich will contain 
+**expectedRelease**: the release version which will contain 
 the work done on this issue.
 
 **priority**: an integer from 0-9 detailing the importance

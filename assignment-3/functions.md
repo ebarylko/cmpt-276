@@ -6,7 +6,7 @@ mainMenu options:
     - searchByDescription
     - Pagination
     - View requests linked to issue
-  - Edit(description, priority, status, releaseFix?)
+  - Edit(description, priority, status, anticipatedRelease)
   
 - Requests
   - Create(issue, affectedRelease, anticipatedRelease?, contact)

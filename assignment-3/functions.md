@@ -2,14 +2,14 @@
 mainMenu options:
 - Issues
   - List
-    - Filter(priority, status, releaseFix, releaseFound, dateCreated)
+    - Filter(priority, status, anticipatedRelease, affectedRelease, dateCreated, description)
     - searchByDescription
     - Pagination
     - View requests linked to issue
   - Edit(description, priority, status, releaseFix?)
   
 - Requests
-  - Create(issue, releaseFound, fixedRelease?, contact)
+  - Create(issue, affectedRelease, anticipatedRelease?, contact)
     - Create issue
 - Products
   - Create(name)
@@ -47,9 +47,9 @@ Create request
 List issues
 - mainMenu()
 - issuesMenu()
-- changeIssueFilter(filterOptions): IssueFilter
+- searchIssues(filterOptions): Issues?
 - listIssues(issueFilter, pagination) 
-- editIssue(issue, fieldModification): Issue
+- editIssue(issue, fieldModifications): Issue
 - viewRequests(issueId)
 - toMainMenu()
 
@@ -72,8 +72,8 @@ Create product
 
 Create release:
 - mainMenu()
-- productMenu()
 - releaseMenu()
+- listProducts()
 - enterReleaseInformation(): Release
 - validateReleaseInformation(information)
 - saveToDb(release): DbResponse
